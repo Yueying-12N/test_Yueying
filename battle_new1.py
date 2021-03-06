@@ -7,6 +7,7 @@ def calcRobotPower (rs):
         rp = rp + i
     return rp
 
+#calculate fuction
 for rs in robot_sizes:
     robot_power=calcRobotPower(rs)
     people_required = math.ceil(robot_power/person_power)
